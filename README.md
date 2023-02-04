@@ -9,8 +9,11 @@ Requires:
 
 # Setup
 This will add the supplied IP Address and port as a target to prometheus. \
-ie. `./setup_casper_monitoring.sh <node_ip> <node_port>`
+ie. `./setup_casper_monitoring.sh <node_ip> 8888`
 
+
+
+Casper Node Metrics : <node_ip>:8888/metrics
 # Run
 ### Start Containers
 `docker-compose up -d`
